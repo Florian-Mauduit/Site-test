@@ -216,6 +216,141 @@ nav a:hover {
 }
 
 /* Partie Contenu */
-
 .contenu {
+  background-color: #f1f1f1;
+}
+
+.contenu h2 {
+  font-size: 2em;
+}
+
+.texteContenu {
+  text-align: center;
+  color: #f65e3f;
+  font-family: "Quicksand", sans-serif;
+}
+
+.cardContenu {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 20px;
+}
+
+.wordpress {
+  background: rgb(246, 93, 62);
+  background: linear-gradient(
+    120deg,
+    rgba(246, 93, 62, 1) 0%,
+    rgba(147, 44, 23, 1) 100%
+  );
+  justify-content: center;
+  width: 15%;
+  border-radius: 16px;
+  height: 360px;
+  margin: 20px;
+}
+
+.wordpress p {
+  margin-top: 50%;
+  font-size: 2rem;
+  color: white;
+  text-decoration-line: underline;
+  font-family: "Quicksand", sans-serif;
+}
+
+.wooCommerce {
+  background: rgb(246, 93, 62);
+  background: linear-gradient(
+    120deg,
+    rgba(246, 93, 62, 1) 0%,
+    rgba(147, 44, 23, 1) 100%
+  );
+  width: 15%;
+  border-radius: 16px;
+  height: 360px;
+  margin: 20px;
+}
+
+.wooCommerce p {
+  margin-top: 50%;
+  font-size: 2rem;
+  color: white;
+  text-decoration-line: underline;
+  font-family: "Quicksand", sans-serif;
+}
+
+.referencement {
+  background: rgb(246, 93, 62);
+  background: linear-gradient(
+    120deg,
+    rgba(246, 93, 62, 1) 0%,
+    rgba(147, 44, 23, 1) 100%
+  );
+  width: 15%;
+  border-radius: 16px;
+  height: 360px;
+  margin: 20px;
+}
+
+.referencement p {
+  margin-top: 50%;
+  font-size: 2rem;
+  color: white;
+  text-decoration-line: underline;
+  font-family: "Quicksand", sans-serif;
+}
+
+/* Partie Container */
+
+.accroche {
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 30px;
+  font-size: 26px;
+  font-family: "Quicksand", sans-serif;
+  color: #f65e3f;
+}
+
+.presentation1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+  font-family: "Quicksand", sans-serif;
+}
+
+.presentation1 h4 {
+  font-size: 25px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.presentation1 p {
+  font-size: 20px;
+}
+
+/* Partie Présentation 2  */
+
+.presentation2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  text-align: center;
+  width: 50%;
+  margin-top: 20px;
+  margin-left: 25%;
+  font-family: "Quicksand", sans-serif;
+}
+
+.presentation2 h4 {
+  font-size: 25px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.presentation2 p {
+  font-size: 20px;
 }
