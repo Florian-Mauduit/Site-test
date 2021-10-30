@@ -214,8 +214,27 @@ nav a:hover {
   height: auto;
   margin-left: 37%;
 }
+/* Partie Intro Responsive */
+@media only screen and (max-width: 700px) {
+  .intro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .intro h3 {
+    font-size: 25px;
+  }
+  .intro p {
+    font-size: 17px;
+    text-align: center;
+  }
+  .intro img {
+    width: 60px;
+  }
+}
 
 /* Partie Contenu */
+
 .contenu {
   background-color: #f1f1f1;
 }
@@ -301,6 +320,26 @@ nav a:hover {
   font-family: "Quicksand", sans-serif;
 }
 
+/* partie Contenu Responsive */
+
+@media only screen and (max-width: 700px) {
+  .contenu {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .cardContenu {
+    flex-direction: column;
+  }
+  .wordpress {
+    width: 100%;
+  }
+  .wooCommerce {
+    width: 100%;
+  }
+  .referencement {
+    width: 100%;
+  }
+}
 /* Partie Container */
 
 .accroche {
@@ -353,4 +392,30 @@ nav a:hover {
 
 .presentation2 p {
   font-size: 20px;
+}
+
+/* Partie Container Responsive */
+
+@media only screen and (max-width: 700px) {
+  .accroche {
+    font-size: 20px;
+  }
+  .presentation1 {
+    flex-wrap: wrap;
+  }
+  .presentation1 img {
+    margin-top: 50px;
+  }
+  .presentation1 p {
+    font-size: 17px;
+  }
+  .presentation2 {
+    flex-wrap: wrap;
+  }
+  .presentation2 img {
+    margin-top: 50px;
+  }
+  .presentation1 p {
+    font-size: 17px;
+  }
 }
