@@ -21,6 +21,7 @@ header {
   display: flex;
   cursor: pointer;
   margin-right: 20px;
+  font-size: 18px;
 }
 
 .icon {
@@ -39,6 +40,7 @@ header {
   display: flex;
   cursor: pointer;
   margin-right: 10%;
+  font-size: 18px;
 }
 /* Responsive Cordonner */
 
@@ -59,17 +61,63 @@ nav {
 li {
   list-style: none;
   padding: 10px;
+  font-size: 20px;
 }
 
 a {
   text-decoration: none;
   color: #555;
-  font-size: 20px;
-  font-family: "Helvetica, inherit, Arial, sans-serif";
+  font-size: 22px;
+  font-family: "Quicksand", sans-serif;
 }
 
 .lien {
   display: flex;
   flex-direction: row;
   padding: 70px;
+}
+
+nav a:hover {
+  color: #f76748;
+}
+
+.contactBtn {
+  cursor: pointer;
+  background: rgb(255, 95, 63);
+  background: linear-gradient(
+    360deg,
+    rgba(255, 95, 63, 1) 0%,
+    rgba(84, 14, 0, 1) 100%
+  );
+  width: 150px;
+  margin-left: 70px;
+  border-radius: 7px;
+  border-style: none;
+  color: #f1f1f1;
+  font-size: 20px;
+  font-family: "Quicksand", sans-serif;
+}
+
+/* Section Titre de la page */
+
+.titrePage {
+  background: rgb(255, 95, 63);
+  background: linear-gradient(
+    120deg,
+    rgba(255, 95, 63, 1) 0%,
+    rgba(84, 14, 0, 1) 100%
+  );
+  width: 100%;
+  height: 500px;
+}
+
+.titrePage h1 {
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  margin: 0 auto;
+  padding: 6%;
+  color: white;
+  text-shadow: 3px 4px black;
+  width: 35%;
+  font-size: 3em;
 }
